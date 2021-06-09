@@ -1,0 +1,42 @@
+.header{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(136, 136, 221, 0.781);
+}
+.location{
+    font-size: 40px;
+    display: block;
+}
+.date{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.weather{
+    font-size: 30px;
+    margin: 20px 60px;
+    border-radius: 20px;
+    background-color: hsla(0,0%,100%,.5);
+}
+.rain{
+    display: block;
+    padding-top: 10px;
+}
+.other{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.icon{
+    width: 10%;
+}
+.icon svg{
+    width: 100%;
+    height: 100%;
+}
+.txt{
+    font-size: 20px;
+    margin-left: 10px;
+}
