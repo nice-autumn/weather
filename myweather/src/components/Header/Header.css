@@ -1,10 +1,5 @@
 .header{
-    width: 50%;
-    height: 100%;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: rgba(136, 136, 221, 0.781);
+   margin: 0 auto;
 }
 .location{
     font-size: 40px;
@@ -15,8 +10,9 @@
   margin-top: 10px;
 }
 .weather{
+    width: 600px;
     font-size: 30px;
-    margin: 20px 60px;
+    margin: 20px auto;
     border-radius: 20px;
     background-color: hsla(0,0%,100%,.5);
 }
@@ -26,14 +22,19 @@
 }
 .other{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.else{
+    display: flex;
     padding: 10px;
-    justify-content: center;
+    margin: 10px 0;
 }
 .icon{
-    width: 10%;
+    width: 100px;
 }
 .icon svg{
-    width: 100%;
+    width: 65%;
     height: 100%;
 }
 .txt{
